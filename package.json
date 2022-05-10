@@ -3,18 +3,29 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "next dev -H 0.0.0.0",
     "build": "next build",
     "start": "next start",
+    "prettier": "prettier -write .",
     "lint": "next lint"
   },
   "dependencies": {
+    "@chakra-ui/react": "^1.8.8",
+    "@emotion/react": "^11.9.0",
+    "@emotion/styled": "^11.8.1",
+    "framer-motion": "^6.3.3",
     "next": "12.1.6",
     "react": "18.1.0",
     "react-dom": "18.1.0"
   },
   "devDependencies": {
-    "eslint": "8.15.0",
-    "eslint-config-next": "12.1.6"
-  }
+    "eslint": "^8.15.0",
+    "eslint-config-next": "^12.1.6",
+    "prettier": "^2.6.2"
+  },
+  "description": "Karl's website",
+  "main": "index.js",
+  "keywords": [],
+  "author": "Karl Ong",
+  "license": "MIT"
 }
