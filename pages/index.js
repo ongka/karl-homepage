@@ -97,15 +97,15 @@ const Page = ()  => {
 
     <Box my={10}>
       <Heading as="h3" variant="section-title" fontSize='2xl'>
-        Work
+        Projects
       </Heading>
-      <Box align="center">
+      {/* <Box align="center">
           <NextLink href="/works" passHref scroll={false}>
             <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
               My portfolio
             </Button>
           </NextLink>
-        </Box>
+        </Box> */}
     </Box>
   </Container>
     
