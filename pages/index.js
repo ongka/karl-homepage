@@ -11,10 +11,11 @@ import {
   List,
   SimpleGrid
 } from '@chakra-ui/react'
-import { ChevronRightIcon } from '@chakra-ui/icons'
+import { ChevronRightIcon, ExternalLinkIcon } from '@chakra-ui/icons'
 import { IoLogoGithub, IoMailSharp, IoPhonePortraitSharp } from 'react-icons/io5'
-import Section from '../components/section'
-import Paragraph from '../components/paragraph'
+
+
+
 
 const Page = ()  => {
   return (
@@ -96,17 +97,60 @@ const Page = ()  => {
     </Box>
 
     <Box my={10}>
-      <Heading as="h3" variant="section-title" fontSize='2xl'>
+      <Heading as="h3" variant="section-title" fontSize='2xl' my={7}>
         Projects
       </Heading>
-      {/* <Box align="center">
-          <NextLink href="/works" passHref scroll={false}>
+
+
+
+        {/* <Box align="center">
+          <NextLink href="https://ongka.github.io/product-card/" passHref scroll={false} >
             <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
-              My portfolio
+              Product Card
             </Button>
           </NextLink>
         </Box> */}
+
+        <SimpleGrid columns={[1, 2, 2]} columnGap={6} rowGap={4}>
+            <Box >
+            <Image
+              borderRadius={12}
+              src="/images/project1.png"
+              
+            >
+              
+            </Image>
+
+            <Link href='https://ongka.github.io/product-card/' isExternal >
+              Product Card  <ExternalLinkIcon mx='2px' />
+            </Link>
+
+            </Box>
+
+            
+
+            <Image
+              borderRadius={12}
+              src="/images/project1.png"
+              
+            >
+              
+            </Image>
+            <Image
+              borderRadius={12}
+              src="/images/project1.png"
+              
+            >
+              
+            </Image>
+            
+              
+            
+            
+          </SimpleGrid>
     </Box>
+
+    
   </Container>
     
   )
