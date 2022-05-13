@@ -115,7 +115,7 @@ const Page = ()  => {
             <Box >
             <Image
               borderRadius={12}
-              src="/images/project1.png"
+              src="/images/product-card.png"
               
             >
               
@@ -131,14 +131,14 @@ const Page = ()  => {
 
             <Image
               borderRadius={12}
-              src="/images/project1.png"
+              src="/images/product-card.png"
               
             >
               
             </Image>
             <Image
               borderRadius={12}
-              src="/images/project1.png"
+              src="/images/product-card.png"
               
             >
               
