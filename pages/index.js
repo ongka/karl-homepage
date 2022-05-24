@@ -29,7 +29,7 @@ const Page = ()  => {
         <Heading as="h2" variant="page-title">
           Karl Ong
         </Heading>
-        <p>Web developer</p>
+        <p>Web Developer</p>
       </Box>
       <Box 
         flexShrink={0} 
@@ -122,7 +122,7 @@ const Page = ()  => {
             </Image>
 
             <Link href='https://ongka.github.io/product-card/' isExternal >
-              Product Card  <ExternalLinkIcon mx='2px' />
+              Product card  <ExternalLinkIcon mx='2px' />
             </Link>
 
             </Box>
@@ -140,8 +140,8 @@ const Page = ()  => {
               
             </Image>
 
-            <Link href='https://ongka.github.io/product-website/' isExternal >
-              Product Website  <ExternalLinkIcon mx='2px' />
+            <Link href='https://ongka.github.io/product-page/' isExternal >
+              Product page  <ExternalLinkIcon mx='2px' />
             </Link>
 
             </Box>
