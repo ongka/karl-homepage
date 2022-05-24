@@ -129,20 +129,23 @@ const Page = ()  => {
 
             
 
+            <Box >
             <Image
               borderRadius={12}
-              src="/images/product-card.png"
+              src="/images/product-website.png"
               
             >
+
+
               
             </Image>
-            <Image
-              borderRadius={12}
-              src="/images/product-card.png"
-              
-            >
-              
-            </Image>
+
+            <Link href='https://ongka.github.io/product-website/' isExternal >
+              Product Website  <ExternalLinkIcon mx='2px' />
+            </Link>
+
+            </Box>
+
             
               
             
