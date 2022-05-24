@@ -1,11 +1,7 @@
-import Link from "next/link";
-import Image from "next/image";
 import {
-    Button,
     Text,
     useColorModeValue
 } from '@chakra-ui/react'
-import styled from "@emotion/styled/"; 
 import { IoHome } from 'react-icons/io5'
 
 const Logo = () => {

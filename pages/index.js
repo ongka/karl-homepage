@@ -1,4 +1,3 @@
-import NextLink from 'next/link'
 import {
   Box,
   Container,
@@ -11,7 +10,7 @@ import {
   List,
   SimpleGrid
 } from '@chakra-ui/react'
-import { ChevronRightIcon, ExternalLinkIcon } from '@chakra-ui/icons'
+import { ExternalLinkIcon } from '@chakra-ui/icons'
 import { IoLogoGithub, IoMailSharp, IoPhonePortraitSharp } from 'react-icons/io5'
 
 
