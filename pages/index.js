@@ -111,22 +111,25 @@ const Page = ()  => {
         </Box> */}
 
         <SimpleGrid columns={[1, 2, 2]} columnGap={6} rowGap={4}>
+
+
+            {/*project 1*/}
             <Box >
             <Image
               borderRadius={12}
-              src="/images/product-card.png"
+              src="/images/company-website.png"
               
             >
-              
             </Image>
 
-            <Link href='https://ongka.github.io/product-card/' isExternal >
-              Product card  <ExternalLinkIcon mx='2px' />
+            <Link href='https://ongka.github.io/company-website/' isExternal >
+              Company website  <ExternalLinkIcon mx='2px' />
             </Link>
 
             </Box>
 
-            
+
+            {/*project 2*/}
 
             <Box >
             <Image
@@ -142,21 +145,26 @@ const Page = ()  => {
 
             </Box>
 
-          
-
+            
+            {/*project 3*/}
             <Box >
             <Image
               borderRadius={12}
-              src="/images/company-website.png"
+              src="/images/product-card.png"
               
             >
+              
             </Image>
 
-            <Link href='https://ongka.github.io/company-website/' isExternal >
-              Company website  <ExternalLinkIcon mx='2px' />
+            <Link href='https://ongka.github.io/product-card/' isExternal >
+              Product card  <ExternalLinkIcon mx='2px' />
             </Link>
 
             </Box>
+
+          
+
+            
             
               
             
