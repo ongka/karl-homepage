@@ -147,6 +147,20 @@ const Page = ()  => {
 
             </Box>
 
+            -
+
+            <Box >
+            <Image
+              borderRadius={12}
+              src="/images/company-website.png"
+            >
+            </Image>
+            <Link href='https://ongka.github.io/company-website/' isExternal >
+              Company website  <ExternalLinkIcon mx='2px' />
+            </Link>
+
+            </Box>
+
             
             {/*project 3*/}
             <Box >
