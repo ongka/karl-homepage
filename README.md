@@ -1,4 +1,4 @@
-## My personal website portfolio
+## My personal website
 
 [https://karl-homepage.vercel.app/](https://karl-homepage.vercel.app/)
 

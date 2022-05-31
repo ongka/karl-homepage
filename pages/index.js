@@ -117,23 +117,6 @@ const Page = ()  => {
             <Box >
             <Image
               borderRadius={12}
-              src="/images/company-website.png"
-              
-            >
-            </Image>
-
-            <Link href='https://ongka.github.io/company-website/' isExternal >
-              Company website  <ExternalLinkIcon mx='2px' />
-            </Link>
-
-            </Box>
-
-
-            {/*project 2*/}
-
-            <Box >
-            <Image
-              borderRadius={12}
               src="/images/product-website.png"
               
             >
@@ -141,6 +124,25 @@ const Page = ()  => {
 
             <Link href='https://ongka.github.io/product-page/' isExternal >
               Product page  <ExternalLinkIcon mx='2px' />
+            </Link>
+
+            </Box>
+
+
+            {/*project 2*/}
+
+
+            <Box >
+            <Image
+              borderRadius={12}
+              src="/images/product-card.png"
+              
+            >
+              
+            </Image>
+
+            <Link href='https://ongka.github.io/product-card/' isExternal >
+              Product card  <ExternalLinkIcon mx='2px' />
             </Link>
 
             </Box>
