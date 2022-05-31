@@ -15,7 +15,7 @@ import { IoLogoGithub, IoMailSharp, IoPhonePortraitSharp } from 'react-icons/io5
 
 
 
-
+{/*Header section */}
 const Page = ()  => {
   return (
   <Container>
@@ -49,7 +49,7 @@ const Page = ()  => {
     </Box>
 
     
-
+    {/*Contact section */}
     <Box my={10}>
       <Heading as="h3" variant="section-title" fontSize='2xl'>
         Contact
@@ -95,20 +95,13 @@ const Page = ()  => {
       </List>
     </Box>
 
+
+    {/*Projects section */}
     <Box my={10}>
       <Heading as="h3" variant="section-title" fontSize='2xl' my={7}>
         Projects
       </Heading>
 
-
-
-        {/* <Box align="center">
-          <NextLink href="https://ongka.github.io/product-card/" passHref scroll={false} >
-            <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
-              Product Card
-            </Button>
-          </NextLink>
-        </Box> */}
 
         <SimpleGrid columns={[1, 2, 2]} columnGap={6} rowGap={4}>
 
@@ -129,10 +122,8 @@ const Page = ()  => {
             </Box>
 
 
-            {/*project 2*/}
-
-
-            <Box >
+          {/*project 2*/}
+          <Box >
             <Image
               borderRadius={12}
               src="/images/product-card.png"
@@ -147,7 +138,8 @@ const Page = ()  => {
 
             </Box>
 
-            -
+            {/*project 3*/}
+
 
             <Box >
             <Image
@@ -162,28 +154,8 @@ const Page = ()  => {
             </Box>
 
             
-            {/*project 3*/}
-            <Box >
-            <Image
-              borderRadius={12}
-              src="/images/product-card.png"
-              
-            >
-              
-            </Image>
-
-            <Link href='https://ongka.github.io/product-card/' isExternal >
-              Product card  <ExternalLinkIcon mx='2px' />
-            </Link>
-
-            </Box>
-
-          
-
             
-            
-              
-            
+
             
           </SimpleGrid>
     </Box>
