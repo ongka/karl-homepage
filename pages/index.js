@@ -9,7 +9,6 @@ import {
   ListItem,
   List,
   SimpleGrid,
-  Paragraph
 } from '@chakra-ui/react'
 import { ExternalLinkIcon } from '@chakra-ui/icons'
 import { IoLogoGithub, IoMailSharp, IoPhonePortraitSharp } from 'react-icons/io5'
@@ -29,7 +28,7 @@ const Page = ()  => {
         <Heading as="h2" variant="page-title">
           Karl Ong
         </Heading>
-        <p>Web Developer</p>
+        <p>Software Developer</p>
       </Box>
       <Box 
         flexShrink={0} 
