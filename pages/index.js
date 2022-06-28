@@ -21,7 +21,7 @@ const Page = ()  => {
   return (
   <Container>
     <Box borderRadius="lg" bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')} p={3} mb={6} my={10} textAlign="center" >
-      Hello, I&apos;m a web developer based in Canada!
+      Hello, I&apos;m a software developer based in Canada!
     </Box>
 
     <Box display={{md:'flex'}}>
