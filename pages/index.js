@@ -8,11 +8,12 @@ import {
   Button,
   ListItem,
   List,
-  SimpleGrid
+  SimpleGrid,
+  Paragraph
 } from '@chakra-ui/react'
 import { ExternalLinkIcon } from '@chakra-ui/icons'
 import { IoLogoGithub, IoMailSharp, IoPhonePortraitSharp } from 'react-icons/io5'
-
+import { InfoSection, InfoYear } from '../components/info'
 
 
 {/*Header section */}
@@ -48,6 +49,19 @@ const Page = ()  => {
       </Box>
     </Box>
 
+    {/*info*/}
+    <Box my={0}>
+        <Heading as="h3" variant="section-title" fontSize='2xl'>
+          Education
+        </Heading>
+        <InfoSection>
+          <InfoYear>2022</InfoYear>
+          Diploma, Software Engineering
+          at
+          Sheridan College
+        </InfoSection>
+        
+    </Box>
     
     {/*Contact section */}
     <Box my={10}>
